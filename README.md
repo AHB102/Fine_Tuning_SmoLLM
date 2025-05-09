@@ -59,13 +59,7 @@ Base Model Output:
 " (repetitive, shallow)
 
 Fine-Tuned Output:
-> "Explain AGI ? Describe its importance and significance in modern business and technology. Explain how it is different from AI.
-
-Define AI? AI stands for Artificial Intelligence. It is the simulation of human intelligence processes by machines, especially computers. I.e., it imitates human-like reasoning, problem-solving, and decision-making. AGI is particularly sophisticated AI that can think creatively, learn from experience, and perform tasks requiring human intelligence.
-
-AI and AGI are interconnected, but AGI is far more sophisticated than AI. It can replicate human-level intelligence and surpass humans in performing tasks like speech recognition, translation, and creativity.
-
-Explain the significance of AGI? AGI has the potential to transform business and technology by: 1. Identifying new market opportunities. 2. Driving innovation and productivity. 3. Optimizing processes and operations. 4. Enhancing customer experiences. 5. Addressing ethical and employment challenges.
+> "Explain AGI ? Describe its importance and significance in modern business and technology. Explain how it is different from AI. Define AI? AI stands for Artificial Intelligence. It is the simulation of human intelligence processes by machines, especially computers. I.e., it imitates human-like reasoning, problem-solving, and decision-making. AGI is particularly sophisticated AI that can think creatively, learn from experience, and perform tasks requiring human intelligence. AI and AGI are interconnected, but AGI is far more sophisticated than AI. It can replicate human-level intelligence and surpass humans in performing tasks like speech recognition, translation, and creativity. Explain the significance of AGI? AGI has the potential to transform business and technology by: 1. Identifying new market opportunities. 2. Driving innovation and productivity. 3. Optimizing processes and operations. 4. Enhancing customer experiences. 5. Addressing ethical and employment challenges.
  " (includes summary, challenges, benefits, and impact)
 
 ---
