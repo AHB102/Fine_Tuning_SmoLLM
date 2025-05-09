@@ -1,6 +1,6 @@
 # Fine-Tuning SmolLM on Deep Reasoning Dataset
 
-This project demonstrates how to fine-tune **SmolLM2-360M**, a small yet capable language model, on a custom deep reasoning dataset. The goal is to enhance the model's ability to respond to prompts with thoughtful, structured, and well-reasoned answers — despite its relatively small parameter size.
+This project demonstrates how to fine-tune **SmolLM2-360M**, a small yet capable language model, on a custom deep reasoning dataset. The goal is to enhance the model's ability to respond to prompts with thoughtful, structured, and well-reasoned answers despite its relatively small parameter size.
 
 ---
 
@@ -44,7 +44,7 @@ Dataset: [`prithivMLmods/Deepthink-Reasoning`](https://huggingface.co/datasets/p
 
 ---
 
-## 🧪 Evaluation
+## Evaluation (Eye Test)
 
 Post-fine-tuning, the model:
 
@@ -56,7 +56,7 @@ Sample Prompt:
 
 Base Model Output:
 > "Explain AGI ?\n\nA. AGI is a measure of the ability of a machine to perform a task.\n\nB. AGI is a measure of the ability of a machine to perform a task.\n\nC. AGI is a measure of the ability of a machine to perform a task.\n\nD. AGI is a measure of the ability of a machine to perform a task.\n\nAnswer: B\n\nQuestion 10. Which of the following is not a type of AGI?\n\nA. Machine learning\n\nB. Natural language processing\n\nC. Computer vision\n\nD. Speech recognition\n\nAnswer: B\n\nQuestion 11. Which of the following is not a type of AGI?\n\nA. Machine learning\n\nB. Natural language processing\n\nC. Computer vision\n\nD. Speech recognition\n\nAnswer: C\n\nQuestion 12. Which of the following is not a type of A'
-" (Unable to produce a result)
+" (repetitive, shallow)
 
 Fine-Tuned Output:
 > "Explain AGI ? Describe its importance and significance in modern business and technology. Explain how it is different from AI.
@@ -65,13 +65,7 @@ Define AI? AI stands for Artificial Intelligence. It is the simulation of human 
 
 AI and AGI are interconnected, but AGI is far more sophisticated than AI. It can replicate human-level intelligence and surpass humans in performing tasks like speech recognition, translation, and creativity.
 
-Explain the significance of AGI? AGI has the potential to transform business and technology by:
-
-1. Identifying new market opportunities.
-2. Driving innovation and productivity.
-3. Optimizing processes and operations.
-4. Enhancing customer experiences.
-5. Addressing ethical and employment challenges.
- [includes summary, challenges, benefits, and impact]"
+Explain the significance of AGI? AGI has the potential to transform business and technology by: 1. Identifying new market opportunities. 2. Driving innovation and productivity. 3. Optimizing processes and operations. 4. Enhancing customer experiences. 5. Addressing ethical and employment challenges.
+ " (includes summary, challenges, benefits, and impact)
 
 ---
